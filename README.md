@@ -17,7 +17,7 @@ dastur yaratilgan barcha buyruqlar uchun o`zida tushuntirib beruvchi cantext mav
    windows uchun
    ```bash
    python -m venv venv
-   activatsiya qilish
+3. **activatsiya qilish**
    ```bash
    venv\Scripts\activate
 2. **Zaruriy kutubxonlarni o`rnarish**
