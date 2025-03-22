@@ -61,7 +61,7 @@ def test_template_cheks(file_path):
     if not os.path.exists(file_path):
         # Agar fayl mavjud bo'lmasa, yangi fayl yaratish
         with open(file_path, 'w') as file:
-            file.write(babel_config)
+            file.write(test_template)
         print(f"Teplate yaratildi: {file_path}")
     else:
         print(f"Teplate  mavjud: {file_path}")
@@ -72,7 +72,7 @@ def test_template_cheks(file_path):
             if not content.strip():
                 print(f"{file_path} Faylda ma'lumot yo'q, yangilanmoqda...")
                 with open(file_path, 'w') as file:
-                    file.write(babel_config)
+                    file.write(test_template)
                 print(f"Teplate yangilandi: {file_path}")
             else:
                 print(f"Teplateda ma'lumot mavjud: {file_path}")
