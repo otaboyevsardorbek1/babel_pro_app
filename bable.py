@@ -82,7 +82,9 @@ test_template_cheks(file_path='app.py')
 # test app template end
 
 # beble settings start 
-babel_config="""[python:*.py]
+babel_config="""
+[python: **.py]
+encoding = utf-8
 extensions = ["gettext"] 
 """
 
